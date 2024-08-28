@@ -1,7 +1,7 @@
 require 'capybara/rspec'
 
 # Configuração do Capybara
-Capybara.default_driver = :selenium_chrome # Ou :selenium_firefox, conforme sua preferência
+Capybara.default_driver = :selenium_chrome # Ou :selenium_firefox, conforme sua preferência mantive o crhome
 Capybara.app_host = 'http://www.vr.com.br'
 
 RSpec.describe 'Adicionar produto ao carrinho', type: :feature do
