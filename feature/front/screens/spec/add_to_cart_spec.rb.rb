@@ -7,7 +7,7 @@ Capybara.app_host = 'http://www.vr.com.br'
 RSpec.describe 'Adicionar produto ao carrinho', type: :feature do
   it 'valida que um produto pode ser adicionado ao carrinho com sucesso' do
     # Acessar a home do portal web
-    visit '/'
+    visit 'http://www.vr.com.br'
 
     # Clicar no botão "Compre online"
     click_link 'Compre online'
